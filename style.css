@@ -1,0 +1,62 @@
+body{color: white;
+	margin: 0px;
+	padding: 0px;
+	height: 100vh;
+	font-family: system-ui;
+	background-image: url('color.jpg');
+}
+
+
+#top-section, footer {
+	text-align: center;
+	padding: 20px;
+}
+
+
+@media (max-width: 575.98px) {
+    body{font-size: 10px;}
+	#clearfix{
+		height: 950px;
+		width: 1000px;
+		background-color: pink;
+		margin: 30px auto;
+		padding: 10px;
+	
+	}
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    body{font-size: 17px;}
+	#clearfix{
+		height: 950px;
+		width: 1000px;
+		background-color: pink;
+		margin: 30px auto;
+		padding: 10px;
+	
+	}
+  }
+   
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    body{font-size: 15px;}
+	#clearfix{
+		height: 1100px;
+		width: 1000px;
+		background-color: pink;
+		margin: 30px auto;
+		padding: 10px;
+	
+	}
+  }
+  
+  @media (min-width: 992px) {
+    body{font-size: 22px;}
+	#clearfix{
+		height: 1100;
+		width: 1000px;
+		background-color: pink;
+		margin: 30px auto;
+		padding: 10px;
+	
+	}
+  }
